@@ -8,11 +8,35 @@ body {
     min-height: 100vh;
 }
 
-article {
+.container {
     display: flex;
     flex-direction: row;
     height: 60%;
     width: 100%;
+    padding-top: 10%;
+}
+
+.feature {
+    width: 33%;
+    margin: 50px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Optima, sans-serif;
+    font-size: 30px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.button:hover {
+    color: bisque;
+    box-shadow: 0 2px 6px 0 whitesmoke, 0 6px 18px 0 bisque;
 }
 
 footer {
@@ -21,12 +45,8 @@ footer {
     margin-top: auto;
 }
 
-.title {
-    /* text-align: center; */
-}
-
 h1 {
-    color: cornsilk;
+    color: bisque;
     font-family: Optima, sans-serif;
     font-weight: 100;
     font-size: 50px;
@@ -46,5 +66,14 @@ h2 {
 
 p {
     color: white;
+    text-align: center;
 }
 
+div {
+    color: whitesmoke;
+    font-family: Optima, sans-serif;
+}
+
+a {
+    color: white;
+}
