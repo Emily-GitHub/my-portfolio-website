@@ -16,7 +16,7 @@ body {
     padding-top: 10%;
 }
 
-.feature {
+.section {
     width: 33%;
     margin: 50px;
 }
@@ -30,8 +30,7 @@ body {
     color: whitesmoke;
     font-family: Optima, sans-serif;
     font-size: 30px;
-    width: 50%;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .button:hover {
@@ -66,7 +65,7 @@ h2 {
 
 p {
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 div {
@@ -74,6 +73,22 @@ div {
     font-family: Optima, sans-serif;
 }
 
+#projectsList {
+    color: white;
+}
+
 a {
     color: white;
+}
+
+/* Responsive to smaller screens */
+@media only screen and (max-width: 1000px) {
+    .container {
+        flex-flow: row wrap;
+        height: auto;
+    }
+
+    .section {
+        width: 100%;
+    }
 }
